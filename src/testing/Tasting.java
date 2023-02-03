@@ -1,12 +1,13 @@
 package testing;
 
+import java.util.Scanner;
+
 public class Tasting {
 
 	public static void main(String[] args) {
-	double a =1.98;
-	double x= 3.09;
-	double w= a+x;
-	System.out.println("wis = "+ w);
+    int a=3 ;
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter A value:"+ a);
 	
 
 	}
